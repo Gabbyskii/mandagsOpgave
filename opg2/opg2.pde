@@ -11,7 +11,7 @@ void draw() { }
 void keyPressed() {
   println("Tast trykket: " + key);
 
-  // Sæt en tilfældig farve for hver figur
+  // Sætter en tilfældig farve for hver figur
   fill(random(255), random(255), random(255));
   stroke(0);
   strokeWeight(2);
