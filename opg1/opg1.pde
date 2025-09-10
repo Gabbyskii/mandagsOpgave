@@ -1,9 +1,8 @@
 void setup() {
-    size(400, 400);  // Sæt vinduets størrelse
+    size(400, 400); 
 }
 
 void draw() {
-    // Tjek om musen er på venstre eller højre side af skærmen
     if (mouseX < width/2) {
         // Venstre side: lilla baggrund
         background(155, 0, 155);
