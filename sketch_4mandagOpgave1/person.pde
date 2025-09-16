@@ -10,4 +10,11 @@ Person(String tmpName, int tmpAge) {
     name = tmpName;
     age = tmpAge;
   }
+  String getName() {
+   return name;
+  }
+  /*void(){
+  this.age++ //????
+  } */
+  
 }
