@@ -1,8 +1,8 @@
-Person person;
+Person mySelf;
 void setup(){
 
-person = new Person("Gabriella", 27);
+mySelf = new Person("Gabriella", 27);
 
-println("Person is: " + person.name + " & age is: " + person.age);
+println("Person is: " + mySelf.name + " & age is: " + mySelf.age);
 
 }
