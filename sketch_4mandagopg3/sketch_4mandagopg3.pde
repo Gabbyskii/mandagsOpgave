@@ -13,9 +13,11 @@ void setup(){
  for for(Person p: persons) {
    p.increaseAge();
  }
+
  
  void printAllAges(){
-  //...uncomplete
- 
+  println(print.age);
  }
+  
+  
 }

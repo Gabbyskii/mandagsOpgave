@@ -10,17 +10,19 @@ void setup(){
  persons[i]= new persons("person:" + i, 0);
  
  }
+}
  void increaseAll(){
  for(int i = 0; i < persons.length; i++) {
  persons[i].increaseAge;
   
  for(Person p: persons) {
    p.increaseAge();
+  }
  }
-
  
  void printAllAges(){
   println(print.age);
+  }
  }
  
  void averageAge(){
